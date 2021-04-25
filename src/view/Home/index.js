@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 class Home extends Component {
   componentDidMount(){
-    // console.log(this.props, "props");
+    console.log(this.props, "props");
   }
   handleAdd(){
     this.props.dispatch({
@@ -32,13 +32,15 @@ class Home extends Component {
 }
 export default connect((state)=>{
   return state
-},(dispatch) => {
-  return {
-      // AA() {
-      //     dispatch({
-      //         type: "BB",
-      //         text: 1
-      //     })
-      // }
-  }
-})(Home);
+}
+// ,(dispatch) => {
+//   return {
+//       AA() {
+//           dispatch({
+//               type: "BB",
+//               text: 1
+//           })
+//       }
+//   }
+// }
+)(Home);
