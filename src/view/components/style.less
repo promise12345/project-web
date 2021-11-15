@@ -1,0 +1,41 @@
+.box-root-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  position: relative;
+  .box-containers {
+    display: flex;
+    div {
+      margin-right: 0.4rem;
+      width: 3rem;
+      height: 3rem;
+      border-bottom: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.6rem;
+    }
+  }
+  .box-container {
+    display: flex;
+    div {
+      margin-right: 0.4rem;
+      width: 3rem;
+      height: 3rem;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.box-input{
+  height: 1rem;
+  position: absolute;
+  top: -9999px
+}
+.shake {
+  animation: shake 1s infinite;
+}

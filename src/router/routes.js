@@ -19,4 +19,9 @@ export const Routes = [
       }
     ]
   },
+  {
+    path: '/mine',
+    component: Mine,
+    content: '我的'
+  }
 ]
