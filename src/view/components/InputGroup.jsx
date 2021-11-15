@@ -50,10 +50,10 @@ function InputGroup (props, ref) {
 
   const inputFocus = () => {
     inputRef.current.readOnly = false;
-    if(!disabled){
+    // if(!disabled){
       inputRef.current.focus();
       setIsfocus(true);
-    }
+    // }
   }
   
   return (
